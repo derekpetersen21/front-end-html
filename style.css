@@ -1,0 +1,151 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial';
+    box-sizing: border-box;
+}
+
+.navbar{
+    margin: 0;
+    background-color: #CFB991;
+    color: #000;
+    list-style: none;
+    text-align: right;
+    vertical-align: middle;
+    height: 100px;
+}
+
+.navbar li{
+    display: inline-block;
+    padding: 0 80px 0 80px;
+    font-size: 20px;
+}
+
+.navbar li a{
+    text-decoration: none;
+    color: #000;
+}
+
+.navbar li a:hover{
+    color: #fff;
+    transition: color 0.3s ease;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    float: left;
+}
+
+.logo-image{
+    display: block;
+    height: 100px; /* Adjust size of the image */
+    width: auto; /* Maintain aspect ratio */
+    margin-right: 10px; /* Add spacing between image and text */   
+}
+
+.logo-text{
+    color: #000;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Arial;
+    padding-left: 10px;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+    white-space: nowrap;
+}
+
+.logo a{
+    text-decoration: none;
+    color: #000;
+}
+
+
+
+.banner{
+    padding: 0;
+    width: 100%;
+    display: block;
+}
+
+.banner .banner-image{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.main{
+    background-color: black; 
+    color: white; 
+    padding: 20px;
+    min-height: 100vh;
+}
+
+.service1{
+    width: 298px;
+    border: 3px solid #CFB991;
+    margin: 20px 10px;
+    padding: 0 5px;
+    float: left;
+}
+
+.service1 p{
+    font-size: 14px;
+    color: #CFB991;
+    max-width: 250px;
+}
+
+.services{
+    width: 1350px;
+    margin: 0 auto;
+}
+
+.services p{
+    color: #CFB991;
+    text-align: left;
+    padding-left: 140px;
+}
+
+h1{
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #CFB991;
+    color: #000;
+    padding: 10px 0;
+    margin: 0 -6px;
+}
+
+.image{
+    max-width: 300px;
+    margin: 15px 0 0 0;
+}
+
+.heading{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    color: #CFB991;
+    margin: 100px 0 50px 0;
+}
+
+.image:hover{
+    opacity: 0.4;
+    max-width: 300px;
+    margin-top: 15px;
+
+}
+
+.section-header{
+    font-size: 25px;
+    font-weight: bold;
+    color: #CFB991;
+    text-align: left;
+    padding-left: 80px;
+}
+
+.step-header{
+    font-size: 20px;
+    font-weight: normal;
+    color: #CFB991;
+    text-align: left;
+    padding-left: 110px;
+}

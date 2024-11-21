@@ -1,0 +1,45 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial';
+}
+
+.navbar{
+    margin: 0;
+    background-color: #CFB991;
+    color: #000;
+    list-style: none;
+    text-align: right;
+    padding: 30px 0 0 0;
+    height: 70px;
+}
+
+.navbar li{
+    display: inline-block;
+    padding: 0 80px 0 80px;
+    font-size: 20px;
+}
+
+.navbar li a{
+    text-decoration: none;
+    color: #000;
+}
+
+.navbar li a:hover{
+    color: #fff;
+    transition: color 0.3s ease;
+}
+
+.logo{
+    color: #000;
+    float: left;
+    padding-left: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+.logo a{
+    text-decoration: none;
+    color: #000;
+}
